@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
-using SuperShop.Data.Entities;
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using SuperShop.Data.Entities;
+
 
 namespace SuperShop.Data
 {
