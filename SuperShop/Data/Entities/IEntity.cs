@@ -13,6 +13,5 @@ namespace SuperShop.Data.Entities
 
         
 
-
     }
 }
