@@ -5,7 +5,7 @@ using SuperShop.Data.Entities;
 
 namespace SuperShop.Models
 {
-    public class ProductViewModal : Product
+    public class ProductViewModel : Product
     {
         [Display(Name ="Image")]
         public IFormFile ImageFile { get; set; }
