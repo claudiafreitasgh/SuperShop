@@ -69,3 +69,149 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/* Forbidden page
+-------------------------------------------------- */
+/* Página de erro 403 */
+
+.error-403 {
+    background: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+    min-height: 70vh;
+}
+
+    .error-403 svg {
+        width: 50vw;
+        max-width: 500px;
+    }
+
+    .error-403 .lightblue {
+        fill: #444;
+    }
+
+    .error-403 .eye {
+        fill: #000;
+    }
+
+    .error-403 #eye-wrap {
+        overflow: hidden;
+    }
+
+    .error-403 .error-text {
+        font-size: 120px;
+    }
+
+    .error-403 .alarm {
+        animation: alarmOn 0.5s infinite;
+    }
+
+@keyframes alarmOn {
+    to {
+        fill: darkred;
+    }
+}
+
+.error-403 .h1-forbidden {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #facf5a;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.error-403 .h2-forbidden {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.error-403 .back-home {
+    margin-top: 25px;
+}
+
+    .error-403 .back-home a {
+        color: #2aa7cc;
+        text-decoration: none;
+    }
+
+        .error-403 .back-home a:hover {
+            color: white;
+        }
+
+
+/* Página de erro 404 */
+
+.error-404 {
+    background: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+    min-height: 70vh;
+}
+
+    .error-404 svg {
+        width: 50vw;
+        max-width: 500px;
+    }
+
+    .error-404 .lightblue-404 {
+        fill: #444;
+    }
+
+    .error-404 .eye-404 {
+        fill: #000;
+    }
+
+    .error-404 .eye-wrap-404 {
+        overflow: hidden;
+    }
+
+    .error-404 .error-text-404 {
+        font-size: 120px;
+    }
+
+    .error-404 .alarm-404 {
+        animation: alarmOn404 0.5s infinite;
+    }
+
+@keyframes alarmOn404 {
+    to {
+        fill: darkred;
+    }
+}
+
+.error-404 .h1-notfound {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #facf5a;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.error-404 .h2-notfound {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.error-404 .back-home-404 {
+    margin-top: 25px;
+}
+
+    .error-404 .back-home-404 a {
+        color: #2aa7cc;
+        text-decoration: none;
+    }
+
+        .error-404 .back-home-404 a:hover {
+            color: white;
+        }
+
