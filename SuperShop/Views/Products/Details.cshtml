@@ -25,7 +25,7 @@
                 </dd>
                 <dt class="col-sm-3">
                     @Html.DisplayNameFor(model => model.ImageUrl)
-
+                </dt>
                 <dd class="col-sm-9">
                     @Html.DisplayFor(model => model.LastPurchase)
                 </dd>
@@ -53,7 +53,15 @@
         <div class="col-md-4">
             @if (!string.IsNullOrEmpty(Model.ImageUrl))
             {
-                <img src="@Url.Content(Model.ImageUrl)" alt="Image" style="width:300px;height:450px;max-width:100%;height:auto">
+                <img src="@Url.Content(Model.ImageUrl)"
+                     alt="@Model.Name"
+                     style="width:300px;height:450px;max-width:100%;height:auto">
+            }
+            else
+            {
+                <img src="~/images/no-image.png"
+                     alt="Sem imagem"
+                     style="width:300px;height:auto;max-width:100%">
             }
         </div>
 
